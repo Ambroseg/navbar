@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2 style="margin-left:200px;">Survey Form 1</h2>
+    <form style="border: 2px solid #430303;margin-left:20px;padding-left: 20px;padding-top: 10px;margin-right: 60%;">
+        <label for="username">Enter Your Name:&nbsp<span style="color:red;">*</span></label><br>
+        <input type="text" name="username" placeholder="Enter Your Name" required><br><br>
+        <label for="email">Enter Your Email: &nbsp<span style="color:red;">*</span></label><br>
+        <input type="email" name="email" placeholder="Enter Your Email" required><br><br>
+        <label for="phone">Enter Your Phone: &nbsp<span style="color:red;">*</span></label><br>
+        <input type="number" name="phone" placeholder="+254 7123456" required><br><br>
+        <label for="phone1">Enter Your Phone: &nbsp<span style="color:red;">*</span></label><br>
+        <input type="number" name="phone1" placeholder="Enter Alternative Phone Number"><br><br>
+        <label for="Gender">Select Your Gender: &nbsp<span style="color:red;">*</span></label><br>
+        <input type="radio" name="gender"><label for="male">&nbspMale</label><br>
+        <input type="radio" name="gender"><label for="female">&nbspFemale</label><br><br>
+        <label for="county">Select Your County: &nbsp<span style="color:red;">*</span></label><br>
+        <select name="county">
+            <option value="Defaul">Select One Option</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Nyeri">Nyeri</option>
+            <option value="Kiambu">Kiambu</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Nakuru">Nakuru</option>
+        </select> <br><br>
+        <label for="password">Enter Your Password: &nbsp<span style="color:red;">*</span></label><br>
+        <input type="password" name="password" placeholder="Enter a Password" required><br>
+        <label for="cpassword">Re-Enter Your Password: &nbsp<span style="color:red;">*</span></label><br>
+        <input type="password" name="cpassword" placeholder="Re-Enter a Password" required><br><br>
+
+        <input type="checkbox" name="terms"><label for="terms">&nbspAccept Terms and Conditions</label><br><br>
+
+        <p>The fields Marked with a star <span style="color: red;">(*)</span> are compulsory</p>
+
+        <input type="submit" name="Submit" class="btn btn-outline-success">
+        <br><br><br><br>
+
+    </form>
+</body>
